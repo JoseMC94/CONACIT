@@ -25,6 +25,7 @@
 				</script>
 				<div  id="top" class="callbacks_container-wrap">
 					<ul class="rslides" id="slider3">
+
 						<li>
 							<div class="banner-w3text">
 								<h3>Lorem ipsum dolor consectetur</h3>
@@ -32,7 +33,7 @@
 								<p>Sed dignissim augue ut ex cursus, vel molestie elit condimentum mattis nec ipsum. Morbi quis tincidunt urna, eget laoreet felis. Curabitur ut pulvinar dui mattis nec ipsum. Morbi quis tincidunt urna, eget laoreet felis curabitur ut pulvinar dui. Nunc tortor dui, mattis sit amet ultricies sed, feugiat quis odio Ut metus justo.</p>
 								<div class="banner-buttons"> 
 									<div class="banner-button">
-										<a href="single.html">More</a>
+										<a href="single.html">INSCRIBIRSE</a>
 									</div>
 								</div>
 							</div>
@@ -44,7 +45,7 @@
 								<p>Morbi quis tinci urna, eget laoreet felis. Sed dignissim augue ut ex cursus, vel molestie elit condimentum mattis nec ipsum. Curabitur ut pulvinar dui mattis nec ipsum. Morbi quis tincidunt urna, eget laoreet felis curabitur ut pulvinar dui. Nunc tortor dui, mattis sit amet ultricies sed, feugiat quis odio Ut metus justo.</p>
 								<div class="banner-buttons"> 
 									<div class="banner-button">
-										<a href="single.html">More</a>
+										<a href="single.html">INSCRIBIRSE</a>
 									</div>
 								</div>
 							</div>
@@ -56,11 +57,12 @@
 								<p>Vel molestie elit sed dignissim augue ut ex cursus, condimentum mattis nec ipsum. Morbi quis tincidunt urna, eget laoreet felis. Curabitur ut pulvinar dui mattis nec ipsum. Morbi quis tincidunt urna, eget laoreet felis curabitur ut pulvinar dui. Nunc tortor dui, mattis sit amet ultricies sed, feugiat quis odio Ut metus justo.</p>
 								<div class="banner-buttons">
 									<div class="banner-button">
-										<a href="single.html">More</a>
+										<a href="single.html">INSCRIBIRSE</a>
 									</div> 
 								</div>
 							</div>
 						</li>
+						
 					</ul>
 				</div>	
 			</div>

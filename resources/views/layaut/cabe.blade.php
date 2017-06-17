@@ -4,8 +4,8 @@
 		<div class="container">
 			<div class="social w3-agileitsicons"> 
 				<ul>
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a class="twt" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+					<li><a href="https://www.facebook.com/Congreso-Nacional-de-Ciencia-y-Tecnologia-377397425988866/" target="_blank" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/I_conacit" target="_blank" class="twt" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
 					<li><a class="drbl" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
 					<li><a class="be" href="#"><i class="fa fa-dribbble" aria-hidden="true"></i> </a></li>
 				</ul>  
@@ -27,7 +27,7 @@
 		<div class="container">
 			<div class="header-bottom">
 				<div class="w3ls-logo">
-					<h1><a href="index.html">Fuel <span>Serve</span></a></h1>
+					<h1 style="text-align: center"><a href="{{ url('/') }}">CONASIT <br><h3>Congreso Nacional de Sistemas y Tecnologia</h3><span><!--Serve!--></span></a></h1>
 				</div>
 				<div class="header-top-right">
 					<form action="#" method="post">
@@ -47,11 +47,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="home-icon"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-							<li><a href="index.html" class="active">Home</a></li>
+							<li class="home-icon"><a href="{{ url('/') }}"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+							<li><a href="{{ url('/') }}" class="active">Inicio</a></li>
 							<li><a href="about.html">About</a></li>
-							<li><a href="#news" class="scroll">News</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
+							<li><a href="#news" class="scroll">Eventos</a></li>
+							<li><a href="gallery.html">Ponentes</a></li>
 							<li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li><a class="hvr-bounce-to-bottom" href="icons.html">Web Icons</a></li>
@@ -65,7 +65,7 @@
 									</li>          
 								</ul>
 							</li>	 
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html">Contáctanos</a></li>
 							<li class="login w3">
 								<div id="loginContainer"><a href="#" id="loginButton"><span>Login</span></a>
 									<div id="loginBox">      

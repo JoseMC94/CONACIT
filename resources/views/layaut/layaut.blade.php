@@ -7,15 +7,33 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-
+<link rel="icon" type="image/png" href="/plantilla/images/c.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Fuel Serve Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free web designs  for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+
+<title>.: Congreso Nacional de Sistemas y tecnologías :. </title>
+
+
 <!-- Custom Theme files -->
-<link href="/plantilla/css/bootstrap.css" rel='stylesheet' type='text/css' />  
+<link href="/plantilla/css/bootstrap.css" rel='stylesheet' type='text/css' /> 
+<link href="/plantilla/css/m/animate.css" rel='stylesheet' type='text/css' />
+<link href="/plantilla/css/m/green.css" rel='stylesheet' type='text/css' />
+<link href="/plantilla/css/m/responsive.css" rel='stylesheet' type='text/css' />
 <link href="/plantilla/css/style.css" rel='stylesheet' type='text/css' />
+
+
+
+<link href="/plantilla/css/m/owl.carousel.css" rel='stylesheet' type='text/css' />
+<link href="/plantilla/css/m/owl.theme.css" rel='stylesheet' type='text/css' />
+<link href="/plantilla/css/m/owl.transitions.css" rel='stylesheet' type='text/css' />
+
+
+
+
 <link href="/plantilla/css/font-awesome.css" rel="stylesheet"> 			<!-- font-awesome icons -->
 <!-- //Custom Theme files -->
 <!-- fonts -->
@@ -23,8 +41,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 <!-- //fonts -->
 <!-- js -->
-<script src="/plantilla/js/jquery-1.11.1.min.js"> </script>	
+<script src="/plantilla/js/jquery-2.1.1.min.js"></script>
+<script src="/plantilla/js/count-to.js"></script>
+
 <script src="/plantilla/js/bootstrap.js"></script>
+<script src="/plantilla/js/jquery.easing.1.3.js"></script>
+<script src="/plantilla/js/jquery.fitvids.js"></script>
+<script src="/plantilla/js/jquery.appear.js"></script>
+<script src="/plantilla/js/owl.carousel.min.js"></script>
+<script src="/plantilla/js/script.js"></script>
+
+
+
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -62,7 +90,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input type="submit" value="Subscribe">
 					</form>
 					<div class="footer-right-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3771907.975236311!2d-2.09480472072984!3d39.07355564363949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1436857347604"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15540.85603823333!2d-74.22278602576397!3d-13.14889658273345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb55e9aaeb3c30130!2zTcOzZHVsb3M!5e0!3m2!1ses!2s!4v1497699944316" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
 				<div class="col-md-6 footer-left"> 
@@ -92,14 +120,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<script type="text/javascript" src="/plantilla/js/easing.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
+			
 			var defaults = {
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
 				easingType: 'linear' 
 			};
-			*/
+			
 			
 			$().UItoTop({ easingType: 'easeOutQuart' });
 			
